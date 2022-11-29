@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+
+.container {
+    width: 375px;
+    background-color: #fff;
+    margin: 0px auto 7px auto;
+}
+
+.logo-img{
+    width: 127px;
+    height: 33.02px;
+}
+
+.avatar-img{
+    width: 34px;
+    height: 34px;
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.shadow{
+    box-shadow: 0px 4px 5px #aaaaaa;
+}
+
+.section-container {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text-content p{
+    margin: 0px 10px;
+}
+
+.avatar-name{
+    font-weight: 700;
+}
+
+.post img {
+    width: 100%;
+}
+
+.footer-section img{
+    width: 25px;
+    margin: 10px 0 10px 10px;
+}
+
+.icon-item:hover, 
+.icon-item:focus {
+opacity: 50%;
+cursor: pointer;
+}
+
+.footer-section p{
+    font-weight: 700;
+    margin: 0px 0px 10px 10px;
+}
+
+.text-post{
+    font-weight: 400;
+}
+
+.footer-section{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
